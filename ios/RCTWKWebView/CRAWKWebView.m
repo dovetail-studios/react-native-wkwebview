@@ -627,7 +627,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
     _onNavigationResponse(event);
   }
 
-  decisionHandler(WKNavigationResponsePolicyAllow + 2);
+  decisionHandler(WKNavigationResponsePolicyAllow);
 }
 
 @end
